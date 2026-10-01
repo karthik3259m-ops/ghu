@@ -23,7 +23,7 @@ jobs:
           playwright install-deps chromium
 
       - name: Run Scraper
-        run: python crawler.py
+        run: python main.py
 
       # Note: The Python script handles the git push directly, 
       # but we ensure the environment is ready here.
