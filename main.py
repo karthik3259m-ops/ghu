@@ -45,7 +45,7 @@ def scrape():
         except Exception as e:
             print(f"⚠️ Stealth initialization warning: {e}")
 
-        base_url = "https://www.adda247.com/jobs/category/previous-year-question-paper/"
+        base_url = "https://www.brigadegroup.com/"
 
         for pg_num in range(1, 4):
             target = f"{base_url}page/{pg_num}/"
